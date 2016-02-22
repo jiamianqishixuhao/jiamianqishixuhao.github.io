@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>个人感想</title>
+        <script src="js/jquery-1.7.2.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <style type="text/css">
+            ul li {
+                list-style: none;
+                border-left-style: dotted;
+                border-left-width: 2px;
+                border-left-color: #000000;
+            }
+            body {
+                background-color: #999999;
+            }
+            .circle {
+                width: 32px;
+                height: 32px;
+                color: white;
+                position: relative;
+                left: -16px;
+                top: -16px;
+                line-height: 32px;
+                text-align: center;
+                background-color: greenyellow;
+                -ms-border-radius: 50%;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            div.gray {
+                background-color: #708090;
+            }
+			
+.link--kukuri {
+          text-transform: uppercase;
+          font-weight: 900;
+          overflow: hidden;
+          line-height: 0.75;
+          color: #b2b0a9;
+		  margin:0 auto;
+        }
+        
+        .link--kukuri:hover {
+          color: #b2b0a9;margin:0 auto;
+		  
+        }
+        
+        .link--kukuri::after {
+          content: '';
+          position: absolute;gi
+          height: 16px;
+          width: 100%;
+          top: 50%;
+          margin-top: -8px;
+          right: 0;
+          background: #F9F9F9;
+          transform: translate3d(-100%,0,0);
+          transition: transform 0.4s;
+          transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+        }
+        
+        .link--kukuri:hover::after {
+          transform: translate3d(100%,0,0);
+        }
+        
+        .link--kukuri::before {
+          content: attr(data-letters);
+          position: absolute;
+          z-index: 2;
+          overflow: hidden;
+          color: #424242;
+          white-space: nowrap;
+          width: 0%;
+          transition: width 0.4s 0.3s;
+        }
+        
+        .link--kukuri:hover::before {
+          width: 100%;
+        }
+		.link {
+          outline: none;
+		 margin:0 auto;
+          text-decoration: none;
+          position: relative;
+          font-size: 8em;
+          line-height: 1;
+          color: #9e9ba4;
+          display: inline-bloc;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <div style="height: 180px"><a class="link link--kukuri" href="../个人空间.html" data-letters="返回个人空间">&nbsp;&nbsp;&nbsp;&nbsp;返回个人空间</a></div>
+        <div style="width: 1000px;margin: auto;padding-top:16px; ">
+            
+            <ul id="step" style="float: right; width: 968px;margin: 0;padding: 0">
+                <li>
+                    <div class="circle">1</div>
+                    <div style="background-color:#00bfff;height:200px;margin-left:20px;">在学习上,端正个人学习目的、学习态度，大学四年，我系统全面地学习了本专业的理论基础知识，同时把所学的理论知识应用 于实践活动中，把所学知识转化为动手能力、应用能力和创造能力。力求理论和实践的统一。所以，不但学到了公共基础学科知识，同时全面地掌握了软件编程、硬 件维护、网络应用等专业知识。</div>
+                </li>
+                <li></li>
+                <li></li>
+                <li>
+                    <div class="circle">2</div>
+                    <div style="background-color:#00ced1;height:200px;margin-left:20px;">在生活上，我最大的特点是诚实守信，热心待人，勇于挑战自我，时间观念强，有着良好的生活习惯和正派作风。由于平易近人 待人友好,所以一直以来与人相处甚是融洽。并且为了能发挥自己的特长;挖掘自身的潜力，我结合每年的暑期社会实践机会，从而逐步提高了自己的学习能力和分 析处理问题的能力以及一定的协调组织和管理能力。</div>
+                </li>
+                <li>
+                    <div class="circle">3</div>
+                    <div style="background-color: #00ffff;height:200px;margin-left:20px;">在思想道德修养上,本人具有良好的道德修养,并有坚定的政治方向。我热爱祖国,热爱人民,坚决拥护共产党领导和社会主义制度,遵纪守法,爱护公共财产,团结同学,乐于助人。并以务实求真的精神热心参予学校的公益宣传和爱国主义活动。已光荣成为中国共产党中的一员。 感谢我的母校，谢谢你孕育了一个成长的我，我会胜不骄，败不馁;继续努力，不断进取;争创高峰。</div>
+                </li>
+                <li>
+                    <div class="circle">4</div>
+                    <div style="background-color: #00fa9a;height:200px;margin-left:20px;">在政治上，我有坚定的政治方向，积极上进，热爱祖国，热爱人民，坚决拥护中国共产党的领导，拥护党的各项方针政策，遵纪守法，勇于批评和自我批评，树立了正确的人生观和价值观。</div>
+                </li>
+                <li>
+                    <div class="circle">5</div>
+                    <div style="background-color: #00ff00;height:200px;margin-left:20px;">在工作方面，我积极参加各种社会实践，大二时在院学生会工作，赢得同事的好评,到大四的时候，我积极地搜集各种招聘信息，努力地为自己创造就业机会，并获 得了在沈阳爱普罗斯牧业咨询中心实习的机会，在实习期间我努力学习这些专业外的知识，弥补了专业上的不足，拓宽了我的就业范围,同时我还积极参加各种面试 以求取得更多的经验。</div>
+                </li>
+                <li>
+                    <div class="circle">6</div>
+                    <div style="background-color: #4200FF; height: 200px; margin-left: 20px;">在生活方面，也许是受家人的影响，我向来崇尚质朴的生活,并养成良好的生活习惯和正派的作风,虽然家里经济条件很拮据，但是学校的补助和奖励以及老师的帮 助和同学们的关心让我感受了学校这个大家庭的温暖，使得我并没有为生活上的问题而操太多的心思,同时我还积极参加学校、系和班级组织的各项体育活动，以提 高自己的身体素质。</div>
+                </li>
+            </ul>
+            <div id="ico-group" style="width: 32px;position: fixed;top: 16px;">
+                <div class="circle" style="visibility: hidden">1</div>
+                <div class="circle" style="visibility: hidden">2</div>
+                <div class="circle" style="visibility: hidden">3</div>
+                <div class="circle" style="visibility: hidden">4</div>
+                <div class="circle" style="visibility: hidden">5</div>
+                <div class="circle" style="visibility: hidden">6</div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>
+<script type="text/javascript">
+    $(function () {
+
+        $("#ico-group").css("left", ((window.screen.width - 1033) / 2) +42 + "px");
+        $("#step div.circle").each(function (index, element) {
+            $(element).waypoint(function (direction) {
+                if (direction == "up") {
+                    //if (index == 0) {
+                    //    $($("#ico-group div").get(index)).css("visibility", "hidden");
+                    //}
+                    
+                    for (var i = 0; i < $("#ico-group div").length; i++) {
+                        if (i >= index) {
+                            $($("#ico-group div").get(i)).css("visibility", "hidden");
+                        }
+                        if (i > 0 && i==index) {
+                            $($("#ico-group div").get(i-1)).removeClass("gray");
+                        }
+                    }
+                    $(element).css("visibility", "visible");
+                } else {
+                    $(element).css("visibility", "hidden");
+                    for (var i = 0; i < $("#ico-group div").length; i++) {
+                        if (i < index) {
+                            $($("#ico-group div").get(i)).addClass("gray");
+                        } else if (i == index) {
+                            $($("#ico-group div").get(i)).css("visibility", "visible");
+                            $($("#ico-group div").get(i)).removeClass("gray");
+
+                        } else {
+                            $($("#ico-group div").get(i)).css("visibility", "hidden");
+                        }
+                    }
+                }
+
+                $($("#ico-group div").get(index)).unbind("click").bind("click", function() {
+                    var _targetTop = $(element).offset().top;//获取位置
+                    jQuery("html,body").animate({ scrollTop: _targetTop }, 300);//跳转
+                });
+
+            }, {
+                offset: 0 +index*32
+            });
+        });
+    });
+</script>
